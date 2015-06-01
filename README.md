@@ -21,10 +21,13 @@ You can download the compiled binary files at the [release page](https://github.
 * GCC 4.7.4 (requires all above)
 
 ### Compilation
+
+#### Add external library into system paths
 Since all the prerequisite external libraries are installed in non-system locations,
 the system variable **LD_LIBRARY_PATH** must be modified so that the linker can find
 those binary library files.
 
+##### BASH shell users
 For BASH shell, add the following to a file called "tmp.bashrc":
 ```bash
 base_dir=/Scr/scr-test-steven/install
@@ -46,6 +49,7 @@ Then type the following command in the terminal window:
 source tmp.bashrc
 ```
 
+##### CSH shell users
 For CSH shell, add the following to a file named "tmp.cshrc":
 ```csh
 set base_dir=/Scr/scr-test-steven/install
@@ -66,6 +70,7 @@ Then type the following command in the terminal window:
 source tmp.cshrc
 ```
 
+##### Use [Modules](http://modules.sourceforge.net)
 A better way is to install [Modules](http://modules.sourceforge.net) and create a module files like this:
 ```tcl
 #%Module 1.0
@@ -92,7 +97,7 @@ To reverse the change, type:
 module rm libmpc-0.8.1
 ```
 
-
+#### Compile, Check & Install
 The following bash script is used:
 ```bash
 #!/bin/sh
