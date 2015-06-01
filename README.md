@@ -1,5 +1,4 @@
 # GCC4.7
-<<<<<<< HEAD
 **GNU Compiler Collection (GCC) 4.7**
 
 This is an unofficial verbatim redistribution of the binary&source form of GCC 4.7 under its open source license terms (see the LICENSE file).
@@ -67,7 +66,7 @@ Then type the following command in the terminal window:
 source tmp.cshrc
 ```
 
-A better way is to install [modules](http://modules.sourceforge.net) and create a module files like this:
+A better way is to install [Modules](http://modules.sourceforge.net) and create a module files like this:
 ```tcl
 #%Module 1.0
 
@@ -125,10 +124,8 @@ make -k check -j10 | tee QualityVerification.txt
 make install
 ```
 
-**Reminder: make sure the prerequisite library files are in the **LD_LIBRARY_PATH** environmental variable. 
-
 ### Portability
-The following dynamic library files have been added to the lib64/ subfolder to increase the portability of the binary form of GCC:
+The following dynamic library files have been added to the **lib64/** subfolder to increase the portability of the binary form of GCC:
 * libppl_c.so.4 (copied from /home/steven/install/libppl/0.11/lib/libppl_c.so.4.0.0)
 * libppl.so.9   (copied from /home/steven/install/libppl/0.11/lib/libppl.so.9.0.0)
 * libpwl.so.5   (copied from /home/steven/install/libppl/0.11/lib/libpwl.so.5.0.0)
@@ -138,4 +135,3 @@ The following dynamic library files have been added to the lib64/ subfolder to i
 See the "QualityVerification.txt" and "Summary_check_gcc-4.7.4.txt" for the output of "make check".
 =======
 GNU Compiler Collection (GCC) 4.7
->>>>>>> 3852cf081a1b558aaf6cec30602f697993e72390
