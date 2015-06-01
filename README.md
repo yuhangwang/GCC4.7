@@ -22,7 +22,7 @@ You can download the compiled binary files at the [release page](https://github.
 
 ### Compilation
 
-#### Add external library into system paths
+#### [1] Add external library into system paths
 Since all the prerequisite external libraries are installed in non-system locations,
 the system variable **LD_LIBRARY_PATH** must be modified so that the linker can find
 those binary library files.
@@ -97,7 +97,7 @@ To reverse the change, type:
 module rm libmpc-0.8.1
 ```
 
-#### Compile, Check & Install
+#### [2] Compile, Check & Install
 The following bash script is used:
 ```bash
 #!/bin/sh
