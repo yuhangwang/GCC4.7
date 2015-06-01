@@ -133,5 +133,4 @@ The following dynamic library files have been added to the **lib64/** subfolder 
 
 ### Quality verification
 See the "QualityVerification.txt" and "Summary_check_gcc-4.7.4.txt" for the output of "make check".
-=======
-GNU Compiler Collection (GCC) 4.7
+
