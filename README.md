@@ -1,4 +1,5 @@
 # GCC4.7
+<<<<<<< HEAD
 **GNU Compiler Collection (GCC) 4.7**
 
 This is an unofficial verbatim redistribution of the binary&source form of GCC 4.7 under its open source license terms (see the LICENSE file).
@@ -135,3 +136,6 @@ The following dynamic library files have been added to the lib64/ subfolder to i
 
 ### Quality verification
 See the "QualityVerification.txt" and "Summary_check_gcc-4.7.4.txt" for the output of "make check".
+=======
+GNU Compiler Collection (GCC) 4.7
+>>>>>>> 3852cf081a1b558aaf6cec30602f697993e72390
