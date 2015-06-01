@@ -70,7 +70,7 @@ Then type the following command in the terminal window:
 source tmp.cshrc
 ```
 
-##### Use [Modules](http://modules.sourceforge.net)
+##### Or, use [Modules](http://modules.sourceforge.net)
 A better way is to install [Modules](http://modules.sourceforge.net) and create a module files like this:
 ```tcl
 #%Module 1.0
